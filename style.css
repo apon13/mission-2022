@@ -3,6 +3,7 @@ span {
 }
 
 .stay {
+    margin-left: 60px;
     border-left: 10px solid;
     border-color: rgb(241, 45, 241);
     border-image-slice: 30;
@@ -11,10 +12,11 @@ span {
 }
 
 .explore {
-
+    padding: 11px 15px;
     color: rgb(255, 255, 255);
     background-color: brown;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .bejal {
@@ -42,36 +44,29 @@ p {
     text-align: center;
 }
 
-.firstpic {
-    background-color: aqua;
-    border-radius: 25px;
-    width: 30%;
-    padding: 2%;
-    margin: 0%;
-
-}
-
-.secondpic {
-    background-color: palevioletred;
-    border-radius: 25px;
-    width: 30%;
-    padding: 2%;
-    margin: 0%;
-
-}
-
-.thirdpic {
-    background-color: rgb(232, 232, 64);
-    border-radius: 25px;
-    width: 30%;
-    padding: 2%;
-    margin: 0%;
-
-}
-
 .try {
+    width: 1000px;
+    margin-left: 140px;
     display: flex;
 }
+
+.card {
+    background-color: aqua;
+    border-radius: 25px;
+    width: 25%;
+    padding: 2%;
+}
+
+.bg-color2 {
+    background-color: palevioletred;
+    margin-left: 30px;
+}
+
+.bg-color3 {
+    background-color: rgb(232, 232, 64);
+    margin-left: 30px;
+}
+
 
 img {
     width: 25%;
